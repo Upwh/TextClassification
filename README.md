@@ -81,7 +81,7 @@ pip install jupyter
 
 由于sklearn库调用fetch_20newsgroups函数会自动下载，但其因网络原因无法下载，所以通过需要手动下载并通过sklearn解析安装。
 
-本项目中包含了`20news-bydate_py3.pkz`为已解析后的数据集，\直接将其放入`C:\Users\用户名\.scikit_learn_data`目录即可，如下图所示。
+本项目中包含了`20news-bydate_py3.pkz`为已解析后的数据集，直接将其放入`C:\Users\用户名\.scikit_learn_data`目录即可，如下图所示。
 
 ![Datasets](./images/Datasets.png)
 
