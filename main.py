@@ -39,16 +39,16 @@ else:  # 创建分类神经网络模型
                         n_iter_no_change=10,  # 早停轮数 默认为10 次数内准确率不变则停止训练
                         tol=1e-4,  # 误差最小值 默认为1e-4
                         random_state=42,)
+    # 训练模型
+    mlp.fit(X_train, y_train)
 
-# 训练模型
-mlp.fit(X_train, y_train)
 # 数据绘制
 losses = mlp.loss_curve_
 plt.plot(losses)
 plt.title('Training Loss')
 plt.xlabel('Epochs')
 plt.ylabel('Loss')
-plt.savefig('images/training_loss_42_27.png')
+plt.savefig('training_loss_42_27.png')
 plt.show()
 # 保存模型
 joblib.dump(mlp, 'mlp_42_27.pkl')
