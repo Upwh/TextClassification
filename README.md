@@ -66,14 +66,14 @@ pip是一个现代的，通用的Python管理工具。提供了对 Python 包的
 
 #### 2）必需库的安装
 
-若从github下载了该项目，可以直接通过在终端输入`pip install -r requirements.txt`即可完成安装，
+若从github下载了该项目，~~可以直接通过在终端输入`pip install -r requirements.txt`即可完成安装~~，
 否则输入以下内容：
 
 ```
 pip install scikit-learn
 pip install matplotlib
-pip install jupyter
 ```
+~~pip install jupyter~~
 
 安装过程可能较为缓慢，等待完成即可。
 
