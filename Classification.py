@@ -28,7 +28,7 @@ if os.path.exists('mlp_42_27.pkl'):
     mlp = joblib.load('mlp_42_27.pkl')
 else:  # 创建分类神经网络模型
     mlp = MLPClassifier(hidden_layer_sizes=(100,),  # 隐藏层神经元数目 1层 100个
-                        max_iter=100,  # 最大迭代次数
+                        max_iter=50,  # 最大迭代次数
                         activation='relu',  # 激活函数 默认为relu
                         solver='adam',  # 优化算法 默认为adam
                         batch_size='auto',  # 批处理大小 默认为'auto'
