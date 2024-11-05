@@ -300,7 +300,13 @@ plt.title('一次性500次迭代 损失函数图')
 plt.show()
 ```
 
-### 2. 模型参数调整
+### 2. 默认参数结果展示
+
+![image.png](images/Regression.png)
+
+![image.png](images/Regression_LossCurve.png)
+
+### 3. 模型参数调整
 
 通过调整`MLPRegressor`中模型的参数可以得到更好的模型效果，通过自行训练观察训练过程，分析各参数的影响。
 
